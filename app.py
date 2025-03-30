@@ -8,7 +8,7 @@ import base64
 
 
 # Load profile data from JSON file
-with open('profile.json') as f:
+with open('data.json') as f:
     data = json.load(f)
 
 api_key= st.secrets['GROQ_API_KEY']

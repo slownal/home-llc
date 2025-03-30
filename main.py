@@ -1,20 +1,4 @@
 import json
-
-# data = {
-#     "responses": {
-#         "life_story": "I have always been driven by curiosity and problem-solving. My background combines engineering and AI research, and I’ve worked on projects that challenge me to learn and adapt. I enjoy building practical solutions, whether it's through automation, AI, or optimizing workflows. Outside of work, I value continuous learning and personal growth.",
-#         "superpower": "My ability to break down complex problems into structured, actionable steps. Whether it’s analyzing data, troubleshooting technical issues, or improving processes, I focus on clarity, efficiency, and results.",
-#         "growth_areas": [
-#             "Deepening my expertise in AI and machine learning, especially in real-world applications.",
-#             "Enhancing my leadership and mentorship skills to guide teams effectively.",
-#             "Improving my ability to communicate technical concepts in a way that is accessible to non-technical stakeholders."
-#         ],
-#         "misconception": "Some might assume that I am always focused on technical details and don’t engage much in broader strategic discussions. In reality, I enjoy collaborating on high-level problem-solving and aligning solutions with business goals.",
-#         "pushing_boundaries": "I seek out challenging projects that force me to learn new skills and think differently. I actively explore new technologies, take on responsibilities outside my comfort zone, and continuously refine my approach based on feedback."
-       
-#     }
-# }
-
 data = {
     "responses": {
         "life_story": "Curiosity and problem-solving have always been my driving forces. With a background in engineering and AI research, I thrive on tackling complex challenges that push me to learn and adapt. I’m passionate about building practical solutions—whether through automation, AI, or workflow optimization. Beyond work, I am dedicated to continuous learning and personal growth, always seeking new ways to expand my knowledge and skills.",
@@ -62,7 +46,7 @@ data = {
 }
 
 
-with open('profile.json', 'w') as f:
+with open('data.json', 'w') as f:
     json.dump(data, f)
 
 import json
@@ -75,7 +59,7 @@ load_dotenv()
 
 
 # Load profile data from JSON file
-with open('profile.json') as f:
+with open('data.json') as f:
     data = json.load(f)
 
 
