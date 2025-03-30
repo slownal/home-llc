@@ -59,7 +59,7 @@ streamlit run app.py
 ## Files
 
 - `app.py`: Main Streamlit application
-- `profile.json`: Contains professional profile data
+- `data.json`: Contains professional profile data
 - `.streamlit/secrets.toml`: Stores API key (not included in repo)
 
 ## Security
